@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Componenets/starter-code/assets/home/background-home-desktop.jpg);
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-right: 5rem;
+  margin-top: 2rem;
+  background: rgba(79, 168, 228, 0.155);
+  padding: 2rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.line {
+  height: 1px;
+  width: 60%;
+  background-color: #fff;
+}
