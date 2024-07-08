@@ -1,0 +1,12 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    width: 200px ;
+    height: 200px;
+}

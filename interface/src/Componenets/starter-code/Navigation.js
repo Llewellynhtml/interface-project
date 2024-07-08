@@ -7,7 +7,7 @@ function Navigation() {
 
         <div className='Navbar'>
             <div>
-                <img src={image} className='logo' />
+                <img className='logo'  src={image}/>
             </div>
 
             
@@ -15,14 +15,16 @@ function Navigation() {
 <div className='line'></div>
             <div>
                 <ul>
-                    <li><a href="">00 Home</a></li>
-                    <li><a href="">01 Destination</a></li>
-                    <li> <a href="">02 Crew</a></li>
-                    <li> <a href="">03 technology</a></li>
+                    <li><a href="./00 Home">00 Home</a></li>
+                    <li><a href="./01 Destination">01 Destination</a></li>
+                    <li> <a href="./02 Crew">02 Crew</a></li>
+                    <li> <a href="./03 technology">03 technology</a></li>
                 </ul>
+
             </div>
         </div>
 
+    
     )
 }
 export default Navigation;
